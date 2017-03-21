@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  /* border: solid 1px purple; */
+}
+
+.categories {
+  min-width: 200px;
+  margin-right: 20px;
+  /* border: solid 1px green; */
+}
+
+.categories ul {
+  padding-left: 0;
+}
+
+.categories li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.product-image img {
+  width: 250px;
+}
+
