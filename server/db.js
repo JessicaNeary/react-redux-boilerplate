@@ -59,6 +59,6 @@ function getProducts () {
 
 function getCategories (callback) {
   setTimeout(() => {
-    callback(null, products)
+    callback(null, categories)
   }, 1000)
 }

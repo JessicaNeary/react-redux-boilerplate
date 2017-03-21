@@ -7,7 +7,7 @@ export const getCategories = () => {
 
     request.get(target)
       .then(res => {
-        dispatch(receivingCategories(res.data))
+        dispatch(receivingCategories(res.body))
       })
       .catch(err => {
         return dispatch({

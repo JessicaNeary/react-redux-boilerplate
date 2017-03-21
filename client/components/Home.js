@@ -5,7 +5,9 @@ export default React.createClass({
     this.props.getCategories()
   },
   render () {
-    const content = <div>Content found</div>
+    const content = this.props.categories.map(item => {
+      return <div>{item.name}</div>
+    })
     return (
       <div>
         <h4>Home</h4>

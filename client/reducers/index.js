@@ -8,7 +8,6 @@ const reducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case 'UPDATE_CATEGORIES':
       newState.categories = action.data
-      console.log(action.data)
       return newState
 
     default:
