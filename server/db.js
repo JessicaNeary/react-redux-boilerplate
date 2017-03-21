@@ -1,6 +1,5 @@
 /* DUMMY DATA */
 module.exports = {
-  getProducts,
   getCategories
 }
 
@@ -44,18 +43,6 @@ const categories = [{
     id: 13,
     name: 'Vehicles hobbies & radio controlled'
   }]
-
-const products = [{
-  id: 1,
-  categoryId: 1,
-  name: 'Batman mighty minis mystery bag',
-  image: '/images/batman.jpg',
-  description: 'Recreate favorite Batman™ stories with mighty mini figures, featuring pop joints for mix and match play. They are the perfect size for on the go DC Comics action! Collect the full assortment of favorite characters.'
-}]
-
-function getProducts () {
-  return products
-}
 
 function getCategories (callback) {
   setTimeout(() => {
