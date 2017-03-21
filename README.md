@@ -1,7 +1,8 @@
-# A starter webpack project for React
+# A starter webpack for React and Redux
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, clone this repo and then `npm install`.
+This is a starter boilerplate for a React/Redux application that uses webpack to transpile and bundle ES6. It uses a mock database file that is served on port 3000. The client side application is on port 8080. Also includes tape and enzyme testing frameworks.
+To use, clone this repo and then `npm install`.
 
-To start the development server with a watcher that refreshes your browser, run `npm start`. The assets built by webpack are placed in `server/static`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.
+To start the development application with a watcher that refreshes your browser, run `npm run dev`. The assets built by webpack are placed in `server/static`. To run the server, run `npm start`
 
 Additional components should be placed in `client/components`.
