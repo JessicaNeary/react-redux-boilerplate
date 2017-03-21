@@ -6,7 +6,7 @@ export default React.createClass({
   },
   render () {
     const content = this.props.categories.map(item => {
-      return <div>{item.name}</div>
+      return <div key={item.id}>{item.name}</div>
     })
     return (
       <div>
